@@ -1,0 +1,6 @@
+String Down=Double.toString(getPositionX)+Double.toString(getPositionY+1);
+        String Down1=Double.toString(getPositionX-0.5)+Double.toString(getPositionY+1);
+        String Down2=Double.toString(getPositionX+0.5)+Double.toString(getPositionY+1);
+        if(map.get(Down)!=null || map.get(Down1)!=null || map.get(Down2)!=null){
+            moveDown=false;
+        }else moveDown=true;
